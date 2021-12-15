@@ -1,0 +1,23 @@
+{
+    "name": "alifuz/service-hooks",
+    "description": "Package will send request to service-hook and create hook",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alifshop\\Hooks\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "orejametov",
+            "email": "orejametov777@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.4"
+    }
+}
