@@ -33,15 +33,6 @@ when an entity changes its status, or when an entity is created, and so on.
 As a microservice, we have separated this service and are linking through the http
 
 
-```php
-/**
- * Put down the correct Topic Key.
- *
- * @var string $topic_key
- */
-public static string $topic_key = 'my_topic';
-```
-
 ## Using Hook package on your controller or on your service or anywhere u want to use
 
 
