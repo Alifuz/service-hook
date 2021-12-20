@@ -1,5 +1,5 @@
 {
-    "name": "alifuz/service-hooks",
+    "name": "alifuz/service-hook",
     "description": "Package will send request to service-hook and create hook",
     "type": "library",
     "license": "MIT",
