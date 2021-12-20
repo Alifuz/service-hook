@@ -15,8 +15,8 @@ class ServiceHookProvider extends ServiceProvider
 
     public function register()
     {
-//        $this->mergeConfigFrom(
-//            __DIR__.'/../config/hook.php', 'hook'
-//        );
+        $this->mergeConfigFrom(
+            __DIR__.'/../config/hook.php', 'hook'
+        );
     }
 }
